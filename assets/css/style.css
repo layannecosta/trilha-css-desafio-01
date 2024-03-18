@@ -1,0 +1,163 @@
+@import url(./reset.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Geral*/
+* {
+  font-family: raleway;
+}
+
+body {
+  background-color: #000;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: transparent;
+  background: -webkit-linear-gradient(#33a8db, #1472b7);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.35rem;
+  letter-spacing: 0.3rem;
+  color: #33a8db;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.18rem;
+  color: #fff;
+}
+
+/*Banner*/
+.banner {
+  text-align: center;
+  margin: 80px auto;
+}
+
+.banner-content {
+  height: 550px;
+  background-image: url(../images/banner.png),
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(49, 168, 221, 0.2),
+      rgba(0, 0, 0, 0.8)
+    );
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #33a8db80;
+}
+
+.logo {
+  width: 268px;
+  margin-top: 80px;
+  margin: 0 auto;
+}
+
+#subtitulo {
+  width: 34rem;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.46rem;
+}
+
+#bt-inscricao {
+  box-sizing: border-box;
+  width: 350px;
+  height: 55px;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #31a8dd;
+  background: transparent;
+  border: 2px solid #3ba1cd;
+  margin-top: 50px;
+}
+
+/*Course-Content*/
+#course-content {
+  width: 800px;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.module {
+  width: 500px;
+  text-align: center;
+  color: #fff;
+  background-color: #252525;
+  padding: 16px;
+  margin: 24px auto;
+  border-radius: 60px;
+  border: 1px #31a8dd solid;
+  box-shadow: inset -2px 6px 4px #00000060;
+}
+
+span {
+  color: #31a8dd;
+}
+
+/*Transform World*/
+#transform-world {
+  height: 550px;
+  border-bottom: 1px solid #33a8db80;
+  border-top: 1px solid #33a8db80;
+  background-image: url(../images/woman-code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+#transform-world p {
+  display: block;
+  max-width: 250px;
+  text-align: left;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin: auto 200px;
+  text-shadow: 3px 2px 0 #31a8dd;
+  position: absolute;
+  top: 38%;
+}
+
+/*Professional Challenges*/
+#professional-challenges {
+  width: 800px;
+  text-align: center;
+  margin: 100px auto;
+}
+
+/*Footer*/
+footer {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(51, 168, 220, 0.2)
+  );
+  border-top: 1px solid #33a8db80;
+  padding: 60px 0 40px 0;
+}
+
+footer a {
+  color: #31a8dd;
+  text-decoration: none;
+  font-weight: bold;
+}
